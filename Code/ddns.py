@@ -43,7 +43,7 @@ if __name__ == '__main__':
        v4 = requests.get(url=v4api) #IPV4 Address Variable："v4.text"
        print("Your IPV4 Address:")
        print(v4.text)
-       v6api = 'http://v6.ipv6-test.com/api/myip.php'#Get IPV6 Address
+       v6api = 'http://v6.ip.zxinc.org/getip'#Get IPV6 Address
        v6 = requests.get(url=v6api) #IPV6 Address Variable："v6.text"
        print("Your IPV6 Address:")
        print(v6.text)
