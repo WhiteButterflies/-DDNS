@@ -1,6 +1,6 @@
 # -DDNS
-这是涉及到ipv4和ipv6的动态域名解析
-code/.json:
+这是涉及到ipv4和ipv6的动态域名解析.注意提前在阿里云服务端准备好一条解析记录（ip可以随意填）。
+code/set.json:
 #### RR:你的主机名
 
 #### Domain:Your Main Domain（你购买的域名）
